@@ -1,6 +1,7 @@
 scoreboard players reset @a armor_level
 scoreboard players reset @a has_shears
 scoreboard players reset @e g_tick
+scoreboard players reset @e respawn_countdown
 scoreboard players set activate_generators variables 0
 effect clear @a
 clear @a[gamemode=survival]
@@ -9,3 +10,9 @@ kill @e[type=item]
 kill @e[type=villager]
 
 function bedwars:summon_villager/all
+
+tag Fritz_ist_dabei add red
+tag Nesoula add blue
+
+teleport @a[tag=red] 36 -60 -41
+teleport @a[tag=blue] -20 -60 -41

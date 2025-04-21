@@ -22,3 +22,5 @@ scoreboard objectives add armor_level dummy "armor_level"
 
 scoreboard objectives add has_shears dummy "has_shears"
 #scoreboard objectives setdisplay sidebar has_shears
+
+scoreboard objectives add respawn_countdown dummy "respawn_countdown"

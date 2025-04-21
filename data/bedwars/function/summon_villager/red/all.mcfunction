@@ -1,5 +1,5 @@
-function bedwars/summon_villager/blue/blocks
-function bedwars/summon_villager/blue/weapons_armor
-function bedwars/summon_villager/blue/tools
-function bedwars/summon_villager/blue/bows_arrows
-function bedwars/summon_villager/blue/special
+function bedwars:summon_villager/red/blocks
+function bedwars:summon_villager/red/weapons_armor
+function bedwars:summon_villager/red/tools
+function bedwars:summon_villager/red/bows_arrows
+function bedwars:summon_villager/red/special

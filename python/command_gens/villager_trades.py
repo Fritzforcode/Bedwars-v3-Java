@@ -158,70 +158,70 @@ write_custom_trades_villager_command(
     villager_position="-24 -60 -46",
     villager_profession="mason",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/blue/blocks.mcfunction",
+    filename="data/bedwars/function/summon_villager/blue/blocks.mcfunction",
 )
 write_custom_trades_villager_command(
     villager_trades=weapon_armor_trades, 
     villager_position="-23 -60 -46",
     villager_profession="armorer",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/blue/weapons_armor.mcfunction",
+    filename="data/bedwars/function/summon_villager/blue/weapons_armor.mcfunction",
 )
 write_custom_trades_villager_command(
     villager_trades=tool_trades, 
     villager_position="-22 -60 -46",
     villager_profession="toolsmith",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/blue/tools.mcfunction",
+    filename="data/bedwars/function/summon_villager/blue/tools.mcfunction",
 )
 write_custom_trades_villager_command(
     villager_trades=bow_arrow_trades, 
     villager_position="-21 -60 -46",
     villager_profession="fletcher",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/blue/bows_arrows.mcfunction",
+    filename="data/bedwars/function/summon_villager/blue/bows_arrows.mcfunction",
 )
 write_custom_trades_villager_command(
     villager_trades=special_trades, 
     villager_position="-20 -60 -46",
     villager_profession="cleric",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/blue/special.mcfunction",
+    filename="data/bedwars/function/summon_villager/blue/special.mcfunction",
 )
 
 write_custom_trades_villager_command(
     villager_trades=red_block_trades, 
-    villager_position="-24 -60 -46",
+    villager_position="40 -60 -46",
     villager_profession="mason",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/red/blocks.mcfunction",
+    filename="data/bedwars/function/summon_villager/red/blocks.mcfunction",
 )
 write_custom_trades_villager_command(
     villager_trades=weapon_armor_trades, 
-    villager_position="-23 -60 -46",
+    villager_position="39 -60 -46",
     villager_profession="armorer",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/red/weapons_armor.mcfunction",
+    filename="data/bedwars/function/summon_villager/red/weapons_armor.mcfunction",
 )
 write_custom_trades_villager_command(
     villager_trades=tool_trades, 
-    villager_position="-22 -60 -46",
+    villager_position="38 -60 -46",
     villager_profession="toolsmith",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/red/tools.mcfunction",
+    filename="data/bedwars/function/summon_villager/red/tools.mcfunction",
 )
 write_custom_trades_villager_command(
     villager_trades=bow_arrow_trades, 
-    villager_position="-21 -60 -46",
+    villager_position="37 -60 -46",
     villager_profession="fletcher",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/red/bows_arrows.mcfunction",
+    filename="data/bedwars/function/summon_villager/red/bows_arrows.mcfunction",
 )
 write_custom_trades_villager_command(
     villager_trades=special_trades, 
-    villager_position="-20 -60 -46",
+    villager_position="36 -60 -46",
     villager_profession="cleric",
     villager_biome="plains",
-    filename="../../data/bedwars/function/summon_villager/red/special.mcfunction",
+    filename="data/bedwars/function/summon_villager/red/special.mcfunction",
 )
 
