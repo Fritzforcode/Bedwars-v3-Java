@@ -1,0 +1,5 @@
+function bedwars:summon_villager/blocks
+function bedwars:summon_villager/bows_arrows
+function bedwars:summon_villager/tools
+function bedwars:summon_villager/weapons_armor
+function bedwars:summon_villager/special
