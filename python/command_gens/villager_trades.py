@@ -87,33 +87,31 @@ bow_arrow_trades = [
 
 special_trades = [
     # Potions
-    ("emerald"   , 1, "potion", 1, {
+    ("emerald"   ,  1, "potion", 1, {
         "minecraft:potion_contents": {"potion": "minecraft:strong_swiftness"},
         "minecraft:potion_duration_scale": 0.5,
     }),
-    ("emerald"   , 1, "potion", 1, {
+    ("emerald"   ,  1, "potion", 1, {
         "minecraft:potion_contents": {"custom_effects": [{"id": "minecraft:jump_boost", "amplifier": 4, "duration": 900}]},
         "minecraft:custom_name": {"italic": False, "text": "Potion of Jump Boost"},
     }),
-    ("emerald"   , 2, "potion", 1, {
+    ("emerald"   ,  2, "potion", 1, {
         "minecraft:potion_contents": {"potion": "minecraft:invisibility"},
         "minecraft:potion_duration_scale": 0.17,
     }),
-    ("gold_ingot", 3, "tnt", 1),
-    ("emerald"   , 4, "ender_pearl", 1),
-    ("gold_ingot", 2, "water_bucket", 1),
-    ("gold_ingot", 2, "sponge", 4),
+    ("gold_ingot",  3, "tnt", 1),
+    ("emerald"   ,  4, "ender_pearl", 1),
+    ("gold_ingot",  2, "water_bucket", 1),
+    ("gold_ingot",  2, "sponge", 4),
+    ("iron_ingot", 24, "blaze_spawn_egg", {
+        "minecraft:custom_name": {"color":"gold","text":"Pop-up Tower"},
+    })
 ]
-# TODO's:
-# - allow permanent armor + shears
-# - tools shouldn't get damage
-# - enchant axes efficiency I, I, II, III
-# - enchant pickaxes effi I, II, [III + sharpness II], III
-# - allow bows entchanted [], [Power I], [Power I + Punch 1]
-# - potion types
 
-# Failed TODO's:
-# - allow multiple items?
+# TODO's:
+# - retecture blaze spawn egg
+# - complete remaining items
+# - tools shouldn't get damage
 
 import json
 

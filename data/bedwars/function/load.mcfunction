@@ -4,7 +4,8 @@ scoreboard objectives remove variables
 scoreboard objectives remove g_tick
 scoreboard objectives remove armor_level
 scoreboard objectives remove has_shears
-
+scoreboard objectives remove respawn_timer
+scoreboard objectives remove bed_alive
 
 scoreboard objectives add variables dummy "variables"
 scoreboard players set const_20 variables 20
@@ -23,4 +24,9 @@ scoreboard objectives add armor_level dummy "armor_level"
 scoreboard objectives add has_shears dummy "has_shears"
 #scoreboard objectives setdisplay sidebar has_shears
 
-scoreboard objectives add respawn_countdown dummy "respawn_countdown"
+scoreboard objectives add respawn_timer dummy "respawn_timer"
+
+scoreboard objectives add bed_alive dummy "bed_alive"
+scoreboard players set red bed_alive 1
+scoreboard players set blue bed_alive 1
+
